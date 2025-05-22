@@ -2,15 +2,15 @@
 <manifest>
   
   <!-- Remotes -->
-  <remote name="Amritorock" fetch="https://github.com/Amritorock" revision="android-15" />
+  <remote name="xtomkiller" fetch="https://github.com/xtomkiller" revision="android-15" />
   
   <!-- Device Tree -->
-  <project path="device/realme/r5x" name="android_device_realme_r5x" remote="Amritorock" />
+  <project path="device/realme/r5x" name="android_device_realme_r5x" remote="xtomkiller" />
 
   <!-- Vendor Tree -->
-  <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="Amritorock" />
+  <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="xtomkiller" />
 
   <!-- Kernel -->
-  <project path="kernel/realme/r5x" name="kernel_realme_sm6125" remote="Amritorock" />
+  <project path="kernel/realme/r5x" name="kernel_realme_sm6125" remote="xtomkiller" />
   
 </manifest>
