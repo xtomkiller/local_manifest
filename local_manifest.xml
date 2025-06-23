@@ -7,5 +7,5 @@
   <!-- Vendor Tree -->
   <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="xtomkiller" revision="android-16-testing" />
   <!-- Kernel -->
-  <project path="kernel/realme/r5x" name="kernel_realme_sm6125" remote="xtomkiller" revision="android-15" />
+  <project path="kernel/realme/r5x" name="kernel_realme_sm6125" remote="xtomkiller" revision="android-16" />
 </manifest>
