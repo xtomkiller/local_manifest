@@ -2,15 +2,15 @@
 <manifest>
   
   <!-- Remotes -->
-  <remote name="xtomkiller" fetch="https://github.com/xtomkiller" revision="android-15" />
+  <remote name="crdroidandroid" fetch="https://github.com/crdroidandroid" revision="16.0" />
   
   <!-- Device Tree -->
-  <project path="device/realme/r5x" name="android_device_realme_r5x" remote="xtomkiller" />
+  <project path="device/realme/r5x" name="android_device_realme_r5x" remote="crdroidandroid" />
 
   <!-- Vendor Tree -->
-  <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="xtomkiller" />
+  <project path="vendor/realme/r5x" name="proprietary_vendor_realme_r5x" remote="crdroidandroid" />
 
   <!-- Kernel -->
-  <project path="kernel/realme/r5x" name="kernel_realme_sm6125" remote="xtomkiller" />
+  <project path="kernel/realme/r5x" name="android_kernel_realme_r5x" remote="crdroidandroid" />
   
 </manifest>
