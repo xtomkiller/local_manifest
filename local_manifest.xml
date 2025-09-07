@@ -1,16 +1,17 @@
+  GNU nano 8.4                                                                                           .repo/local_manifests/local_manifest.xml *                                                                                                   
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
   <!-- Remotes -->
-  <remote name="crdroidandroid" fetch="https://github.com/crdroidandroid" revision="16.0" />
   <remote name="Amritorock" fetch="https://github.com/Amritorock" />
-  
+  <remote name="crdroidandroid" fetch="https://github.com/crdroidandroid" />
+
   <!-- Device Tree -->
   <project path="device/realme/r5x" name="android_device_realme_r5x" remote="Amritorock" revision="android-16" />
   <!-- Vendor Tree -->
   <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="Amritorock" revision="android-16" />
-
   <!-- Kernel -->
-  <project path="kernel/realme/r5x" name="android_kernel_realme_r5x" remote="crdroidandroid" />
-  
+  <project path="kernel/realme/r5x" name="android_kernel_realme_r5x" remote="crdroidandroid" revision="16.0" />
+  <!-- vendoer dolby  -->
+  <project path="vendor/sony/dolby" name="vendor_sony_dolby" remote="Amritorock" revision="dolby" />
 </manifest>
+
