@@ -3,12 +3,12 @@
   
   <!-- Remotes -->
   <remote name="crdroidandroid" fetch="https://github.com/crdroidandroid" revision="16.0" />
+  <remote name="Amritorock" fetch="https://github.com/Amritorock" />
   
   <!-- Device Tree -->
-  <project path="device/realme/r5x" name="android_device_realme_r5x" remote="crdroidandroid" />
-
+  <project path="device/realme/r5x" name="android_device_realme_r5x" remote="Amritorock" revision="android-16" />
   <!-- Vendor Tree -->
-  <project path="vendor/realme/r5x" name="proprietary_vendor_realme_r5x" remote="crdroidandroid" />
+  <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="Amritorock" revision="android-16" />
 
   <!-- Kernel -->
   <project path="kernel/realme/r5x" name="android_kernel_realme_r5x" remote="crdroidandroid" />
