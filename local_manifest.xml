@@ -3,6 +3,7 @@
   <!-- Remotes -->
   <remote name="Amritorock" fetch="https://github.com/Amritorock" />
   <remote name="crdroidandroid" fetch="https://github.com/crdroidandroid" />
+  <remote name="swiitch-OFF-Lab" fetch="https://github.com/swiitch-OFF-Lab" />
 
   <!-- Device Tree -->
   <project path="device/realme/r5x" name="android_device_realme_r5x" remote="Amritorock" revision="android-16" />
@@ -11,6 +12,7 @@
   <!-- Kernel -->
   <project path="kernel/realme/r5x" name="android_kernel_realme_r5x" remote="crdroidandroid" revision="16.0" />
   <!-- vendoer dolby  -->
-  <project path="hardware/dolby" name="vendor_sony_dolby" remote="Amritorock" revision="dolby" />
+  <project path="vendor/sony/dolby" name="vendor_sony_dolby" remote="Amritorock" revision="dolby" />
+  <project path="hardware/dolby" name="hardware_dolby" remote="swiitch-OFF-Lab" revision="sony-1.4" />
 </manifest>
 
