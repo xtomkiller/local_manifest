@@ -11,6 +11,6 @@
   <!-- Kernel -->
   <project path="kernel/realme/r5x" name="android_kernel_realme_r5x" remote="crdroidandroid" revision="16.0" />
   <!-- vendoer dolby  -->
-  <project path="vendor/sony/dolby" name="vendor_sony_dolby" remote="Amritorock" revision="dolby" />
+  <project path="hardware/dolby" name="vendor_sony_dolby" remote="Amritorock" revision="dolby" />
 </manifest>
 
