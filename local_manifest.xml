@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Remotes -->
-  <remote name="TheMuppets" fetch="https://github.com/TheMuppets" />
-  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+  <remote name="TheMuppets" fetch="https://github.com/xtomkiller" />
 
   <!-- Device Tree -->
-  <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="LineageOS" revision="lineage-23.2" />
-  <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="LineageOS" revision="lineage-23.2" />
-  <project path="device/samsung/gta4lwifi" name="android_device_samsung_gta4lwifi" remote="LineageOS" revision="lineage-23.2" />
+  <project path="device/samsung/gta4l" name="android_device_samsung_gta4l" remote="xtomkiller" revision="lineage-23.2" />
+  <project path="device/samsung/gta4l-common" name="android_device_samsung_gta4l-common" remote="xtomkiller" revision="lineage-23.2" />
+  <project path="device/samsung/gta4lwifi" name="android_device_samsung_gta4lwifi" remote="xtomkiller" revision="lineage-23.2" />
 
   <!-- Vendor Tree -->
-  <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="TheMuppets" revision="lineage-23.2" />
-  <project path="vendor/samsung/gta4l-common" name="proprietary_vendor_samsung_gta4l-common" remote="TheMuppets" revision="lineage-23.2" />
-  <project path="vendor/samsung/gta4lwifi" name="proprietary_vendor_samsung_gta4lwifi" remote="TheMuppets" revision="lineage-23.2" />
+  <project path="vendor/samsung/gta4l" name="proprietary_vendor_samsung_gta4l" remote="xtomkiller" revision="lineage-23.2" />
+  <project path="vendor/samsung/gta4l-common" name="proprietary_vendor_samsung_gta4l-common" remote="xtomkiller" revision="lineage-23.2" />
+  <project path="vendor/samsung/gta4lwifi" name="proprietary_vendor_samsung_gta4lwifi" remote="xtomkiller" revision="lineage-23.2" />
 
   <!-- Kernel -->
-  <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="LineageOS" revision="lineage-23.2" /> 
+  <project path="kernel/samsung/sm6115" name="android_kernel_samsung_sm6115" remote="xtomkiller" revision="lineage-23.2" /> 
 
   <!-- Hardware -->
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-23.2" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="xtomkiller" revision="lineage-23.2" />
 
 
 </manifest>
