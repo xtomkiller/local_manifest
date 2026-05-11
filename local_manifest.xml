@@ -4,8 +4,7 @@
   <!-- Remotes -->
   <remote name="Evolution-X-Devices" fetch="https://github.com/Evolution-X-Devices" revision="bka" />
 
-  <remote name="Amrito" fetch="https://github.com/amritorock" 
-revision="android-16" />
+  <remote name="Amrito" fetch="https://github.com/amritorock"  revision="android-16" />
 
 
   <!-- Device Tree -->
