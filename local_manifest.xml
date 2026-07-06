@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- Device : Realme 5/5i/5s (r5x) -->
-
 <manifest>
+
 <!-- fetching sources -->      
+
         <remote name="Amrito"
                 fetch="https://github.com/amritorock"
                 revision="android-16" />
 
     
 <!-- device trees -->
-        <project path="device/realme/r5x" name="android_device_realme_r5x" remote="Amrito" />
-        <project path="kernel/realme/r5x" name="kernel_realme_sm6125" remote="Amrito" clone-depth="1" />
-        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="Amrito" clone-depth="1" />
 
-<!-- Dolby -->
+        <project path="device/realme/r5x" name="android_device_realme_r5x" remote="Amrito" />
+        <project path="kernel/realme/r5x" name="kernel_realme_sm6125" remote="Amrito" />
+        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="Amrito" />
         <project path="hardware/dolby" name="hardware_dolby" remote="Amrito" />
  </manifest>
